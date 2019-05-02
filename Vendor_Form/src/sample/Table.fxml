@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefWidth="904.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Preferences " />
+                  <MenuItem mnemonicParsing="false" text="Quit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="542.0" prefWidth="751.0">
+         <children>
+            <TableView layoutX="122.0" prefHeight="689.0" prefWidth="777.0">
+              <columns>
+                <TableColumn prefWidth="107.0" text="Reg No" />
+                <TableColumn prefWidth="118.0" text="Name " />
+                  <TableColumn prefWidth="96.0" text="Email" />
+                  <TableColumn prefWidth="126.0" text="Phone" />
+                  <TableColumn prefWidth="103.0" text="KRA PIN" />
+                  <TableColumn prefWidth="104.0" text="Y.O.B" />
+                  <TableColumn prefWidth="122.0" text="Contact" />
+              </columns>
+            </TableView>
+            <Button layoutX="6.0" layoutY="50.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="107.0" text="ADD RECORD" textFill="#111190">
+               <font>
+                  <Font name="Myanmar Text Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="7.0" layoutY="124.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="107.0" text="DELETE" textFill="#111190">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
